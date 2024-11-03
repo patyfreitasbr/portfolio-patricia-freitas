@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Patricia Freitas Portfólio Bootcamp DIO</title>
+  <meta name="description" content="Portfólio da desenvolvedora front-end Patricia para compartilhar projetos e habilidades desenvolvidas.">
+
+  <link rel="shortcut icon" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtvtQWdNWAIDl3iiy6wVWYYI0O7j1aUVCJdEZpKDh-0kixdgCKW-q_mdeLRIFllP1sZsV4UJo2Z9ql_-u8nICSFpIn4poB5jjUJiKJ1BRFXgWTZ2ju4hvjK2G_913tP6pQhjxAFrn79RMAudO50xNb7HCC46lMJvfxNFaJDixRky6xYrr8SUeH6sJbrDDK/s16000/favicon-32x32.png" type="image/x-icon"><link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="./assets/styles/styles.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="header__nav">
+      <ul class="menu menu--principal">
+        <li class="menu__item">
+          <a class="menu__link active" href="#home">
+            <span class="menu__text">Home</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#projetos">
+            <span class="menu__text">Projetos</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#sobre">
+            <span class="menu__text">Sobre</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#contato">
+            <span class="menu__text">Contato</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="header__brand">
+      <a href="#home">
+        <img class="brand__logo" src="./assets/images/logoPF.png" alt="Logo PF">
+      </a>
+    </div>
+    <div class="header__toggle">
+      <i id="toggleTheme" class="bi bi-sun"></i>
+    </div>
+  </header>
+  <nav class="nav--mobile">
+    <ul class="menu menu--mobile">
+      <li class="menu__item">
+        <a class="menu__link active" href="#home">
+          <i class="menu__icon bi bi-house-door"></i>
+          <span class="menu__text">Home</span>
+        </a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#projetos">
+          <i class="menu__icon bi bi-window-stack"></i>
+          <span class="menu__text">Projetos</span>
+        </a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#sobre">
+          <i class="menu__icon bi bi-person"></i>
+          <span class="menu__text">Sobre</span>
+        </a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#contato">
+          <i class="menu__icon bi bi-envelope"></i>
+          <span class="menu__text">Contato</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <main id="home">
+    <div class="main__content1">
+      <h1><b>Soluções Criativas &</b> Desenvolvimento Front-end</h1>
+      <p>Patrícia Freitas, Minas Gerais/Brasil, Desenvolvedora Front-end</p> 
+      <ul class="menu menu--social">
+        <li>
+          <a class="menu__link" href="https://github.com/patyfreitasbr" target="_blank">
+            <i class="menu__icon bi bi-github"></i>
+          </a>
+        </li>
+        <li>
+          <a class="menu__link" href="https://www.linkedin.com/in/patyfreitasbr/" target="_blank">
+            <i class="menu__icon bi bi-linkedin"></i>
+          </a>
+        </li>
+        <li>
+          <a class="menu__link" href="https://www.instagram.com/patyfreitasbr" target="_blank">
+            <i class="menu__icon bi bi-instagram"></i>
+          </a>
+        </li>
+      </ul>
+      <a href="#projetos">
+        <button class="btn btn--primary">
+          <span>Ver Projetos</span>
+          <i class="bi bi-arrow-down-right"></i>
+        </button>  
+      </a>
+    </div>
+    <div class="main__content2">
+      <iframe src="https://www.youtube.com/embed/7sa8FXKO7jE?si=ayXc5c9pq-6o8k3V" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+  </main>
+
+  <section class="technologies">
+    <h2>Conhecimento nas principais tecnologias do mercado</h2>
+    <ul class="technologies__list">
+      <li class="technologies__item">
+        <img class="technologies__logo" src="./assets/images/HTML5.svg" alt="Logo HTML">
+      </li>
+      <li class="technologies__item">
+        <img class="technologies__logo" src="./assets/images/CSS3.svg" alt="CSS">
+      </li>
+      <li class="technologies__item">
+        <img class="technologies__logo" src="./assets/images/JavaScript.svg" alt="JavaScript">
+      </li>      
+    </ul>
+  </section>
+
+  <section id="projetos" class="projects">
+    <h2>Projetos</h2>
+    <div class="projects__container">
+      <div class="projects__card">
+        <img class="card__cover" src="./assets/images/landing page mundo invertido.gif" alt="Capa Josi's Box">
+        <div class="card__body">
+          <h3 class="card__title">Mundo Invertido</h3>
+          <p class="card__description">Site interativo</p>
+          <ul class="card__list">
+            <li class="card__item">Troca de tema (modo claro e escuro);</li>
+            <li class="card__item">Elementos interativos que refletem o universo de Stranger Thing;</li>
+            <li class="card__item">Formulário de inscrição.</li>
+          </ul>
+          <ul class="technologies__list">
+            <li class="technologies__item">
+              <img class="technologies__logo" src="./assets/images/HTML5.svg" alt="HTML">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src=".//images/CSS3.svg" alt="CSS">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="./assets/images/JavaScript.svg" alt="JavaScript">
+            </li>           
+          </ul>
+          <div class="card__buttons">
+            <button class="btn btn--primary">
+              <a href="https://patyfreitasbr.github.io/landing-page-mundo-invertido/" target="_blank">
+               <span>Prévia</span>
+               <i class="bi bi-arrow-up-right"></i>
+            </a>
+            </button>  
+            <button class="btn">
+              <a href="https://github.com/patyfreitasbr/landing-page-mundo-invertido" target="_blank">
+              <span>Repositório</span></a>
+            </button>  
+          </div>
+        </div>
+      </div>
+      <div class="projects__card card--reverse">
+        <img class="card__cover" src="./assets/images/site-petlife.gif" alt="Capa Archstil">
+        <div class="card__body">
+          <h3 class="card__title">Clínica Veterinária</h3>
+          <p class="card__description">Website para a clínica veterinária PetLife,.</p>
+          <ul class="card__list">
+            <li class="card__item">design atraente e intuitivo, destacando a missão da PetLife e incentivando os visitantes a explorar os serviços.;</li>
+            <li class="card__item">Detalhes sobre os serviços veterinários;</li>
+            <li class="card__item"> Informa sobre o petshop e farmácia disponíveis na clínica.</li>
+          </ul>
+          <ul class="technologies__list">
+            <li class="technologies__item">
+              <img class="technologies__logo" src="./assets/images/HTML5.svg" alt="HTML">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="./assets/images/CSS3.svg" alt="CSS">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="./assets/images/JavaScript.svg" alt="JavaScript">
+            </li>           
+          </ul>
+          <div class="card__buttons">
+            <button class="btn btn--primary">
+              <a href="https://patyfreitasbr.github.io/site-PetLife/" target="_blank">
+              <span>Prévia</span>
+              <i class="bi bi-arrow-up-right"></i></a>
+            </button>  
+            <button class="btn">
+              <a href="https://github.com/patyfreitasbr/site-PetLife" target="_blank">
+              <span>Repositório</span></a>
+            </button>  
+          </div>
+        </div>
+      </div>
+      <div class="projects__card">
+        <img class="card__cover" src="./assets/images/form login.gif" alt="Capa Games Store">
+        <div class="card__body">
+          <h3 class="card__title">Formulário de Login</h3>
+          <p class="card__description">Loja online de Games.</p>
+          <ul class="card__list">
+            <li class="card__item">A página é responsiva e estilizada;</li>
+            <li class="card__item">design moderno, limpo e intuitivo.</li>            
+          </ul>
+          <ul class="technologies__list">
+            <li class="technologies__item">
+              <img class="technologies__logo" src="./assets/images/HTML5.svg" alt="HTML">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="./assets/images/CSS3.svg" alt="CSS">
+            </li>
+          </ul>
+          <div class="card__buttons">
+            <button class="btn btn--primary">
+              <a href="https://patyfreitasbr.github.io/formulario-de-login/" target="_blank">
+              <span>Prévia</span>
+              <i class="bi bi-arrow-up-right"></i></a>
+            </button>  
+            <button class="btn">
+              <a href="https://github.com/patyfreitasbr/formulario-de-login" target="_blank">
+              <span>Repositório</span>
+            </button>  
+          </div>
+        </div>
+      </div>
+      <a href="https://github.com/patyfreitasbr" target="_blank">
+        <button class="btn btn--primary">
+          <span>Ver Todos os Projetos</span></a>
+          <i class="bi bi-arrow-up-right"></i>
+        </button>  
+      </a>
+    </div>
+  </section>
+
+  <section id="sobre" class="about">
+    <div class="about__content1">
+      <img class="about__photo" src="./assets/images/fotoPF.png" alt="">
+      <div class="about__description">
+        <h2>Sobre mim</h2>
+        <p>Em fase de transição de carreira, atualmente, estou me especializando na área de programação, onde estou aprofundando meus conhecimentos em HTML, CSS, JavaScript...Python
+
+          Tenho anos de experiência nas áreas de Design Gráfico, Motion Design.
+          Apaixonada por inovação, busco unir design e desenvolvimento para criar soluções impactantes. 
+          
+          Busco oportunidades na área programação, para aplicar e desenvolver conhecimentos e paixão por inovação.
+        </p>  
+        <div class="about__icons">
+          <i class="bi bi-translate"></i>
+          <span>Espanhol: Intermediário | Inglês: Básico</span>
+        </div>
+        <div class="description__buttons">
+          <a href="https://www.linkedin.com/in/patyfreitasbr/" target="_blank">
+            <button class="btn btn--primary">
+              <span>Conecte-se Comigo</span>
+              <i class="bi bi-arrow-up-right"></i>
+            </button> 
+          </a>
+          <a href="">
+            <button class="btn">
+              <a href="https://www.youtube.com/@patyfreitasbr" target="_blank">
+              <span>Conteúdos</span>
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="about__content2">
+      <div class="col1">
+        <div class="row1">
+          <h3>Formação</h3>
+          <h4>Gestão da Tecnologia da Informação</h4>
+          <span>2015-2017</span>
+          <div class="about__icons">
+            <i class="bi bi-mortarboard"></i>
+            <span>UNIFRAN - Univresidade de Franca</span>
+          </div>
+          <div class="about__icons">
+            <i class="bi bi-bank"></i>
+            <span>ETEV - Técnico em Informática</span>
+          </div>
+        </div>
+        <div class="row2">
+          <h3>Experiências</h3>
+          <h4>Freelancer</h4>
+          <span>PF Projetos e Soluções</span>
+          <span>Desenvolvimento e produção de conteúdos educacionais direcionados a 
+            empreendedores que desejam Desenvolver e Monetizar.
+          </span>
+          <ul class="about__list">
+            <li class="about__item">Infoprodutos</li>
+            <li class="about__item">Consultoria</li>
+            <li class="about__item">Criação de conteúdo</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col2">
+        <h3>Cursos</h3>
+        <div id="accordion">
+          <div class="accordion__item active">
+            <button class="accordion__header start">
+              <span>Bootcamp: Ri Happy Front End do Zero</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body">
+              <p>
+                Digital Innovation One. set a nov /2024  75h
+              </p>
+              <p>
+                Um bootcamp de programação é um curso intensivo e prático, geralmente com curta duração, que visa preparar pessoas para ingressar no mercado de trabalho da programação. A ideia é oferecer uma imersão rápida e profunda em conceitos e ferramentas essenciais para o desenvolvimento de software.
+              </p>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <button class="accordion__header">
+              <span> Python</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body">
+              <p>
+                Hashtag Programação Jul/24 2h
+              </p>
+              <p>
+                Mini curso. Habilidades desemvolvidas:Importar biblioteca, fazer 
+                tratamento dados, analisar base de dados, exibir e fazer 
+                cálculo de indicadores, criação de graficos (graficos dinamicos).
+                 Desafio empresa que vende eletrônicos e tecnologia 
+              </p>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <button class="accordion__header end">
+              <span>Lógica da Programação com JavaScript</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body end">
+              <p>
+                Alura set/24 6h
+              </p>
+              <p>
+               Desenvolvimento do raciocínio lógico aplicado a programação. 
+               Utilzar variáveis no desenvolvimentod e softwares 
+               adaptação de soluções desenvolvidas pela linguagem em programas.
+            </div>
+          </div>
+        </div>
+  </section>
+  
+  <section id="contato" class="contact">
+    <h2>Contate-me</h2>
+    <p>Estou disponível para serviços e novas conexões. Contate-me via 
+      e-mail e conecte-se comigo através das minhas redes sociais.
+    </p>
+    <ul class="menu menu--social">
+      <li>
+        <a class="menu__link" href="https://github.com/patyfreitasbr" target="_blank">
+          <i class="menu__icon bi bi-github"></i>
+          <span>GitHub</span>
+        </a>
+      </li>
+      <li>
+        <a class="menu__link" href="https://www.linkedin.com/in/patyfreitasbr/" target="_blank">
+          <i class="menu__icon bi bi-linkedin"></i>
+          <span>LinkedIn</span>
+        </a>
+      </li>
+      <li>
+        <a class="menu__link" href="https://www.instagram.com/patyfreitasbr" target="_blank">
+          <i class="menu__icon bi bi-instagram"></i>
+          <span>Instagram</span>
+        </a>
+      </li>
+    </ul>
+    <a href="mailto:brpatyfreitas@gmail.com">
+      <button class="btn btn--primary">
+        <span class="email">brpatyfreitas@gmail.com</span>
+      </button>  
+    </a>
+  </section>
+
+  <footer>
+    <p>
+      © 2024 
+      <a href="https://www.linkedin.com/in/patyfreitasbr/" target="_blank">Patrícia Freitas</a> 
+      </p>
+  </footer>
+  <script src="assets/js/scripts.js"></script>
+</body>
+</html>
