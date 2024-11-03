@@ -7,7 +7,7 @@ Site estilo portfólio. O site utiliza um menu âncora para navegação, permiti
 
 ### Demonstração
 
-<a href="https://patyfreitasbr.github.io/portfolio-patricia-freitas/" target="_blank">ACESSE</a>
+<a href="https://patyfreitasbr.github.io/site-one-page-portfolio/" target="_blank">ACESSE</a>
 
 
 ### Tecnologias Utilizadas
